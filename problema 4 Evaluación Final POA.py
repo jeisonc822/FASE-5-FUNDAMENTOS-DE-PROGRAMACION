@@ -27,6 +27,7 @@ for datos_empleado in empleados:
     print(f"  Total Horas Trabajadas: {total_horas}")
     print(f"  Clasificación: {clasificacion}")
     
-    print("-" * 30) #separador para mejorar la legibilidad de la salida
+    print("-" * 30) 
+    #separador para mejorar la legibilidad de la salida
 
 
