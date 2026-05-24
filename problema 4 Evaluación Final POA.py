@@ -5,10 +5,10 @@
 #se realiza la creacion de una matriz con los recursos de nombre de empleados y las horas trabajas de lunes a viernes
 
 empleados= [
-    ["maria vargas", 8,8,9,8,7],
-    ["pedro flores", 9,8,10,8,9],
-    ["dayana casdiegos", 10,9,8,10,9],
-    ["jeison casadiegos", 8,6,9,8,9]
+    ["Maria Vargas", 8,8,9,8,7],
+    ["Pedro Flores", 9,8,10,8,9],
+    ["Dayana Casadiegos", 10,9,8,10,9],
+    ["Jeison Casadiegos", 8,6,9,8,9]
 ]
 # se crea una variable con un umbral de horas para determinar si un empleado ha trabajado horas extras o no, el cual se establece en 40 horas semanales
 UMBRAL_HORAS = 40
@@ -25,7 +25,7 @@ for datos_empleado in empleados:
     total_horas, clasificacion = calcular_jornada_laboral(datos_empleado)
     print(f"Empleado: {nombre}")
     print(f"Total Horas Trabajadas: {total_horas}")
-    print(f"Clasificación: {clasificacion}")
+    print(f"Clasificacion:  {clasificacion}")
 
     print("=" * 35) 
-    #separador para que el cogido se mas organizado en la impresion
+    #separador para que el codigo sea mas organizado en la impresion
