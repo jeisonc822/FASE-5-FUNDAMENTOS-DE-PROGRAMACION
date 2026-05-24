@@ -24,8 +24,8 @@ for datos_empleado in empleados:
     nombre = datos_empleado[0]
     total_horas, clasificacion = calcular_jornada_laboral(datos_empleado)
     print(f"Empleado: {nombre}")
-    print(f"  Total Horas Trabajadas: {total_horas}")
-    print(f"  Clasificación: {clasificacion}")
+    print(f"Total Horas Trabajadas: {total_horas}")
+    print(f"Clasificación: {clasificacion}")
 
-    print("-" * 30) 
-    #separador para mejorar la legibilidad de la salida
+    print("=" * 35) 
+    #separador para que el cogido se mas organizado en la impresion

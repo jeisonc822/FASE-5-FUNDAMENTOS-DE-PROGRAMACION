@@ -1,6 +1,6 @@
 #Nombre:Jeison arley casadiegos
 #Grupo:213022_334
-#Programa: Ing telecomunicaciones+
+#Programa: Ing telecomunicaciones
 #Código:autoría_propia
 
 numero_dimension = int(input("porfavor ingresa la dimeension de la matriz: "))
